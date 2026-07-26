@@ -1,0 +1,45 @@
+[
+    {
+        "id":1,
+        "studentName":"Arun",
+        "registerNo":"22CS001",
+        "subject":"DBMS",
+        "hall":"Hall A",
+        "seat":"A01",
+        "session":"Morning",
+        "invigilator":"Mr Kumar"
+    },
+
+    {
+        "id":2,
+        "studentName":"Priya",
+        "registerNo":"22CS002",
+        "subject":"Java",
+        "hall":"Hall A",
+        "seat":"A02",
+        "session":"Morning",
+        "invigilator":"Mr Kumar"
+    },
+
+    {
+        "id":3,
+        "studentName":"Rahul",
+        "registerNo":"22CS003",
+        "subject":"Python",
+        "hall":"Hall B",
+        "seat":"B01",
+        "session":"Afternoon",
+        "invigilator":"Mrs Devi"
+    },
+
+    {
+        "id":4,
+        "studentName":"Anitha",
+        "registerNo":"22CS004",
+        "subject":"AI",
+        "hall":"Hall C",
+        "seat":"C01",
+        "session":"Morning",
+        "invigilator":"Mr Raj"
+    }
+]

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Add Record</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Add Seating & Invigilator Record</h1>
+
+<form id="recordForm">
+
+<input
+type="text"
+id="studentName"
+placeholder="Student Name">
+
+<br><br>
+
+<input
+type="text"
+id="registerNo"
+placeholder="Register Number">
+
+<br><br>
+
+<input
+type="text"
+id="subject"
+placeholder="Subject">
+
+<br><br>
+
+<select id="hall">
+
+<option value="">Select Hall</option>
+
+<option>Hall A</option>
+
+<option>Hall B</option>
+
+<option>Hall C</option>
+
+</select>
+
+<br><br>
+
+<input
+type="text"
+id="seat"
+placeholder="Seat Number (A01)">
+
+<br><br>
+
+<select id="session">
+
+<option value="">Select Session</option>
+
+<option>Morning</option>
+
+<option>Afternoon</option>
+
+</select>
+
+<br><br>
+
+<input
+type="text"
+id="invigilator"
+placeholder="Invigilator Name">
+
+<br><br>
+
+<button type="submit">
+
+Save Record
+
+</button>
+
+<button
+type="button"
+onclick="window.location='index.html'">
+
+Back
+
+</button>
+
+</form>
+
+</div>
+
+<script src="js/add.js"></script>
+
+</body>
+
+</html>
