@@ -39,6 +39,19 @@ document.getElementById("recordForm").addEventListener("submit", function (e) {
         alert("Please fill all fields.");
         return;
     }
+    let regExists = records.some(r =>
+    r.registerNo === registerNo &&
+    r.id != editId
+);
+
+if (regExists) {
+    alert("Register Number already exists.");
+    return;
+}
+    if (registerNo.length != 12) {
+    alert("Register Number must be 12 digits.");
+    return;
+}
     let seatExists = records.some(r =>
         r.id != editId &&
         r.hall === hall &&
